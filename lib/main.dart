@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:garden_of_feelings/presentation/screens/animated_garden_screen1.dart';
 import 'presentation/screens/garden_screen.dart';
 
 void main() {
@@ -16,7 +17,7 @@ class GardenApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const GardenScreen(),
+      home: const AnimatedGardenScreen1(),
     );
   }
 }

@@ -12,6 +12,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flame: ^1.23.0
 
 dev_dependencies:
   flutter_test:
@@ -21,11 +22,7 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
-    - assets/empty_tile.png
-    - assets/garden_bg1.png
-    - assets/tree.png
-    - assets/flower.png
-    - assets/bush.png
+    - assets/images/prod/
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
