@@ -1,4 +1,4 @@
-package com.example.garden_of_feelings
+package com.example.garden_of_soul
 
 import io.flutter.embedding.android.FlutterActivity
 
